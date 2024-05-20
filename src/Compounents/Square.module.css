@@ -1,0 +1,85 @@
+.para{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+
+}
+body{
+    background-image:url(./color.jpg);
+    background-position: center;
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+}
+.container{
+   
+ display: flex;
+ justify-content: center;
+ align-items: center;
+flex-direction: column;
+   
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(247, 243, 243, 0.15);
+    border-radius: 1rem;
+    
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.box1,.box2,.box4,.box5{
+border-right: 3px solid white;
+border-bottom: 3px solid white;
+}
+.box6,.box3{
+    border-bottom: 3px solid white;
+}
+
+.box7,.box8{
+    border-right: 3px solid white;
+}
+
+.btnplayagain {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 0.5rem 2rem;
+}
+.winningmsg{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 0.5rem 2rem;
+}
+
+.player{
+color: white;
+font-size: 26px;
+font-weight: 600;
+margin-top: 20px;
+background-color: rgba(247, 243, 243, 0.15);
+border-radius: 1rem;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+padding: 0.5rem 2rem;
+
+}
+.tiemsg{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 40px;
+    background-color: red;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    border: none;
+}
